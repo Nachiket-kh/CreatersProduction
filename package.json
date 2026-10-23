@@ -1,0 +1,22 @@
+{
+  "name": "collabdesk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"npm:server\" \"npm:client\"",
+    "server": "node server/index.js",
+    "client": "vite"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "hono": "^4.6.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "vite": "^6.0.5"
+  }
+}
