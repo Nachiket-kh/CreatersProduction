@@ -1,0 +1,115 @@
+{
+  "creator": {
+    "name": "Aanya Kulkarni",
+    "handle": "@aanya.eats.pune",
+    "city": "Pune",
+    "niche": "Pune food and city life",
+    "followers": 48000,
+    "rates": {
+      "reel": 15000,
+      "post": 8000,
+      "stories": 4000
+    },
+    "rules": [
+      "No alcohol brands",
+      "No second café brand in the same month",
+      "Usage rights included for 30 days only",
+      "Usage longer than 30 days adds 40 percent"
+    ]
+  },
+  "deals": [
+    {
+      "id": "d-seed-skincare",
+      "brand": "GlowTheory",
+      "intent": "gifted",
+      "format": "reel",
+      "budgetInr": null,
+      "deadline": "no deadline given",
+      "deliverables": [
+        "1 reel"
+      ],
+      "summary": "Gifted skincare reel in exchange for exposure. No fee.",
+      "status": "new",
+      "usageDays": 30,
+      "createdAt": "2026-10-20T09:00:00.000Z"
+    },
+    {
+      "id": "d-seed-bakery",
+      "brand": "Vanaz Bakehouse",
+      "intent": "paid_collab",
+      "format": "reel",
+      "budgetInr": 18000,
+      "deadline": "in 10 days",
+      "deliverables": [
+        "1 reel",
+        "3 stories"
+      ],
+      "summary": "Paid bakery reel plus stories. Budget is at or above the reel rate.",
+      "status": "negotiating",
+      "usageDays": 30,
+      "createdAt": "2026-10-18T09:00:00.000Z"
+    },
+    {
+      "id": "d-seed-unpaid",
+      "brand": "Koregaon Pantry",
+      "intent": "paid_collab",
+      "format": "post",
+      "budgetInr": 8000,
+      "deadline": "posted last week",
+      "deliverables": [
+        "1 post"
+      ],
+      "summary": "Post is live. Payment has not arrived.",
+      "status": "posted",
+      "usageDays": 30,
+      "createdAt": "2026-10-12T09:00:00.000Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p1",
+      "title": "Breakfast near Vanaz",
+      "type": "reel",
+      "reach": 92000,
+      "saves": 4100,
+      "collab": false,
+      "topic": "food"
+    },
+    {
+      "id": "p2",
+      "title": "Office commute outfit",
+      "type": "reel",
+      "reach": 21000,
+      "saves": 400,
+      "collab": false,
+      "topic": "commute"
+    },
+    {
+      "id": "p3",
+      "title": "Café tasting Koregaon Park",
+      "type": "reel",
+      "reach": 64000,
+      "saves": 2800,
+      "collab": true,
+      "topic": "food"
+    },
+    {
+      "id": "p4",
+      "title": "Skincare routine",
+      "type": "post",
+      "reach": 11000,
+      "saves": 180,
+      "collab": true,
+      "topic": "beauty"
+    },
+    {
+      "id": "p5",
+      "title": "Street food after metro",
+      "type": "reel",
+      "reach": 78000,
+      "saves": 3200,
+      "collab": false,
+      "topic": "food"
+    }
+  ]
+}
